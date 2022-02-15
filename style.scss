@@ -6,8 +6,29 @@ $Rubik: "Rubik", sans-serif;
 @import "scss/get-started";
 @import "scss/stay-safe";
 @import "scss/experts";
-
+@import "scss/healthcare";
 
 .footer {
+  background-color: #ffffff;
+  margin: 40px 0 20px 0;
+}
 
+.footer__container {
+  display: flex;
+  justify-content: center;
+}
+
+.footer__items {
+  display: flex;
+  align-items: center;
+}
+
+@media (max-width: 360.98px) {
+  .footer__items {
+    flex-direction: column;
+  }
+}
+
+.footer__item {
+  padding: 5px 10px;
 }
